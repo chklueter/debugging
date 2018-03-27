@@ -7,8 +7,8 @@ code by other programmers. Learning how to debug a program is an essential skill
 for any programmer.
 
 These problems are generally referred to as bugs, but why do we call them bugs?
-Well, the reason is probably because Grace Hopper, one of the famous and one of
-the first programmers, frequently recounted a story where in 1945 a real moth was
+Well, the reason is probably because Grace Hopper, one of
+the first and most famous programmers frequently recounted a story where in 1945 a real moth was
 found in one of the computers. The people who found the moth kept the insect and
 added it to the logbook with the subtext: "First actual case of bug being
 found." The term stuck around and we still use it today to refer to problems in
@@ -109,7 +109,7 @@ the `result` variable is now affected as well.
 
 ## Finding and fixing a bug
 
-Ofcourse our `for` loop is the code messing with the `index` and we can easily
+Of course our `for` loop is the code messing with the `index` and we can easily
 see the condition is wrong and should be `index < elements.length` instead.
 
 ```js
